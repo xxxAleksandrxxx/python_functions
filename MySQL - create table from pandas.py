@@ -5,7 +5,7 @@ def sql_table_from_pandas(text_dtypes : str = '', table_name : str = '') -> str:
     ''' 
     Function: sql_table_from_pandas
     
-    Description: Converts pandas dtypes table data information into an SQL query for creating a table.
+    Description: Converts pandas dtypes table data information into an SQL query for creating a table but withot inserting data.
 
     Parameters:
     - text_dtypes (str): Text containing converted to string pandas dtypes table data information.
